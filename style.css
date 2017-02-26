@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+
+@font-face{
+    font-family:segoe-ui-semibold;
+    src:url(../fonts/seguisb.ttf);
+}
+@font-face{
+    font-family: Bitter;
+    src:url(../fonts/Bitter-Regular.otf);
+}
+
+.clr{
+    clear: both;
+}
+body{}
+/* main css start */
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.menu_bg{
+    background: rgba(19, 30, 41,.9);
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+.menubar{
+    height: 150px;
+}
+.menubar .logo_part{
+    width: 643px;
+    height: 150px;
+    float: left;
+}
+.logo_part img{
+    margin-top: 65px;
+}
+.menubar .menu_item{
+    width: 527px;
+    height: 150px;
+    float: left;
+}
+.menubar .menu_item ul{
+    float: right;
+}
+.menubar ul li{
+    float: left;
+}
+.menubar ul li a{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    line-height: 150px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    
+.menubar ul li a:hover{
+    color: #4bcaff;
+    
+}
+}
+.menubar ul li:last-child a{
+    padding-right: 0px;
+}
+.menubar ul li .active{
+    color: #4bcaff;
+    border: 1px solid #4bcaff;
+}
+.banner{
+    background: url(../images/bannar.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+.content_bg{
+    background-color: #4bcaff;
+    height: 405px;
+}
+.service{
+    padding-top: 80px;
+    font-family: segoe-ui_reg;
+    font-size: 30px;
+    display: block;
+    color: #ffffff;
+    font-weight: normal;
+}
+.border{
+    display: block;
+}
+
+.coffe{
+    float: left;
+    width: 25%;
+}
+.coffe img{
+    padding-top: 39px;
+    display: block;
+}
+.coffe h2{
+    padding-top: 22px;
+    font-size: 24px;
+    font-family: segoe-ui-semibol;
+    color: #ffffff;
+    font-weight: normal;
+}
+.coffe p{
+    padding-top: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: segoe-ui_reg;
+}
+.instant{
+    width: 25%;
+    float: left;
+}
+.instant img{
+    padding-top: 39px;
+    display: block;
+}
+.instant h2{
+    padding-top: 22px;
+    font-size: 24px;
+    font-family: segoe-ui-semibol;
+    color: #ffffff;
+    font-weight: normal;
+}
+.instant p{
+    padding-top: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: segoe-ui_reg;
+}
+.just{
+    float: left;
+    width: 25%;
+}
+.just img{
+    padding-top: 39px;
+    display: block;
+}
+.just h2{
+    padding-top: 22px;
+    font-size: 24px;
+    font-family: segoe-ui-semibol;
+    color: #ffffff;
+    font-weight: normal;
+}
+.just p{
+    padding-top: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: segoe-ui_reg;
+}
+.fram{
+    float: left;
+    width: 25%;
+}
+.fram img{
+    padding-top: 39px;
+    display: block;
+}
+.fram h2{
+    padding-top: 22px;
+    font-size: 24px;
+    font-family: segoe-ui-semibol;
+    color: #ffffff;
+    font-weight: normal;
+}
+.fram p{
+    padding-top: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: segoe-ui_reg;
+}
+.protfoli ul li a{
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    line-height: 150px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+.first_img{
+    float: left;
+    width: 23%;
+    background-color: #979797;
+    margin-right: 3%;
+    height: 272px;
+    margin-bottom: 30px;
+}
+.second_img{
+    float: left;
+    width: 23%;
+    background-color: #979797;
+    margin-right: 3%;
+    height: 272px;
+    margin-bottom: 30px;
+}
+.third_img{
+    float: left;
+    width: 23%;
+    background-color: #979797;
+    margin-right: 2%;
+    height: 272px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.overlapping img{
+    position: absolute;
+    top: 33px;
+    left: 10px;
+}
+.fourth_img{
+    float: right;
+    width: 23%;
+    background-color: #979797;
+    height: 272px;
+    margin-bottom: 30px;
+}
+.just_defult_bg{
+    background-color: #515f67;
+    height: 473px;
+}
+.just_defult{
+    width: 50%;
+    float: left;
+}
+.just_defult h2{
+    padding-top: 80px;
+    font-family: segoe-ui_reg;
+    font-size: 30px;
+    display: block;
+    color: #ffffff;
+    font-weight: normal;  
+}
+.just_defult p{
+    padding-top: 38px;
+    font-family: segoe-ui_reg;
+    font-size: 14px;
+    color: #ffffff;
+}
+.just_defult ul{
+    margin-top: 18px;
+}
+.just_defult ul li{
+    float: left;
+}
+.just_defult ul li a{
+    color: #353f46;
+    font-family:lato_bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 3px solid #353f46;
+    padding: 18px 40px;
+    display: block;
+
+   
+    
+}
+.vedio{
+    width: 50%;
+    float: left;
+}
+.vedio img{
+    padding: 80px 40px;
+}
+.twitter{
+    background-color: #4bcaff;
+    height: 305px;
+    
+}
+.twitter_details{
+    float: left;
+    width: 1139px;
+}
+.twitter_logo{
+    float: left;
+    width: 31px
+}
+.twitter_logo i{
+    color: #fff;
+    padding-top: 80px;
+    font-size: 40px;
+}
+.twitter_details h2{
+    padding-top: 80px;
+    font-family: segoe-ui_reg;
+    font-size: 30px;
+    display: block;
+    color: #ffffff;
+    font-weight: normal;  
+}
+.details{
+    color: #fff;
+    font-size: 28px;
+    font-family: segoe-ui_light;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.seceond_bannar{
+    background: url(../images/2ndbannar.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.wrapper h2{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 80px;
+    display: block;
+    font-family: segoe-ui_reg;
+    font-weight: normal;
+}
+.first_content{
+    width: 50%;
+    float: left;
+}
+.first_content p{
+    color: #fff;
+    font-size: 14px;
+    font-family: segoe-ui_reg;
+    padding-top: 40px;
+}
+.social{
+    width: 50%;
+    float: left;
+}
+.social p{
+    color: #fff;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 14px;
+    font-family: segoe-ui_reg;
+}
+.social ul{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.social ul li{
+    float: left;
+}
+.social ul li i{
+    font-size: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-right: 23px;
+    
+}
+.testimonial{
+    width: 1139px;
+    float: left;
+}
+.testimonial h2{
+    padding-top: 80px;
+    font-family: segoe-ui_reg;
+    font-size: 30px;
+    display: block;
+    color: #515f67;
+    font-weight: normal; 
+}
+.testimonial p{
+    color: #515f67;
+    font-size: 28px;
+    font-family: segoe-ui_light;
+    padding-top: 40px;
+}
+.testimonial h4{
+    color: #515f67;
+    font-size: 14px;
+    font-family: segoe-ui_bold;
+    padding-top: 43px;
+    padding-bottom: 80px;
+}
+.testimonial_logo{
+    width: 31px;
+    float: left;
+}
+.testimonial_logo h2{
+    padding-top: 80px;
+    font-family: Bitter;
+	font-size: 72px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    color: #515f67;
+    
+     
+}
+.footer_bg{
+    background: url(../images/footerbannar.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 814px;
+    
+}
+.contact form{
+    padding-top: 36px;
+    color: #fff;
+    width: 50%;
+    float: left;
+    font-family: segoe-ui_bold;
+    font-weight: 100;
+}
+.contact form input{
+    width: 471px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+
+    background: transparent; 
+    
+
+}
+.contact_containt{
+    width: 50%;
+    float: left;
+}
+.contact_containt p{
+    color: #fff;
+    font-size: 14px;
+    font-family: segoe-ui_bold;
+    font-weight: 100;
+    padding-top: 50px;
+}
+.massage form{
+    font-family: segoe-ui_bold;
+    font-weight: 100;
+    color: #fff;
+}
+.massage form input{
+    width: 1170px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    padding: 110px 0px;
+    background: transparent; 
+}
+.message_button ul{
+    margin-top: 18px;
+
+}
+.message_button ul li{
+    float: left;
+    background-color: #4bcaff;
+}
+.message_button ul li a{
+    color: #fff;
+    font-family:lato_bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 30px 188px;
+    display: block;
+
+   
+    
+}
